@@ -182,6 +182,7 @@ end
 
 
 def play(board)
+  puts "Welcome to Tic Tac Toe!"
       until over?(board) == true
       turn(board)
       end
