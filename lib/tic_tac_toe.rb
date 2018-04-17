@@ -28,7 +28,7 @@ end
 
 def move(index, token)
   @board[index] = token
-  #turn_count(board)
+  turn_count
 end
 
 def position_taken?(index)
@@ -111,9 +111,8 @@ def play
           puts "Congratulations #{winner}!"
         end
   end
-end
 
-end
+
 
 
 end
