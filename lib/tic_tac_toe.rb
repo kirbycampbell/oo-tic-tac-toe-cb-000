@@ -79,7 +79,7 @@ WIN_COMBINATIONS.find do |spot|
 end
 
 def full?
-  board.none? do |i|
+  @board.none? do |i|
   i == " "
   end
 end
